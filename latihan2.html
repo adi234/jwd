@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belajar Javascript</title>
+   
+</head>
+<body>
+    <script>
+        var yakin = confirm("Apakah kamu yakin akan belajar DTS-VSGA?");
+
+        if (yakin) {
+            document.write("Baiklah, Selamat belajar :)");;
+        } else {
+            document.write("Yakinkan diri Anda ;)");
+        }
+
+        function startLearn(){
+            var name = prompt("masukan nama Anda :","");
+            alert("Ayo belajar "+name+"!");
+        }
+    </script>
+    <br>
+    <button onclick="startLearn()"> Mulai belajar!</button>
+</body>
+</html>
